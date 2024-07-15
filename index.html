@@ -9,11 +9,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.tailwindcss.com"></script>
-
-
 </head>
 <body>
-<section class="py-3 md:sticky -top-10 ">
+
+    <section class="py-3 md:sticky -top-10 bg-black ">
     <div class="container mx-auto bg-white shadow-2xl rounded-lg">
         <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <input type="checkbox" id="menu-toggle" class="hidden peer">
@@ -27,11 +26,11 @@
             </div>
             <div class="hidden md:flex md:justify-center md:items-center m-4 peer-checked:flex md:bg-white  py-5  ">
                 <ul class="md:flex gap-5  ">
-                    <li class="m-4 md:text-base font-medium font-[Roboto] text-sm"><a href="#Home">Home</a></li>
-                    <li class="m-4 md:text-base font-medium font-[Roboto] text-sm"><a href="#About">About</a></li>
-                    <li class="m-4 md:text-base font-medium font-[Roboto] text-sm"><a href="#Products">Products</a></li>
-                    <li class="m-4 md:text-base font-medium font-[Roboto] text-sm"><a href="#Review">Review</a></li>
-                    <li class="m-4 md:text-base font-medium font-[Roboto] text-sm"><a href="#Contact">Contact</a></li>
+                    <li class=" p-[5px] rounded-md m-4 md:text-base font-medium font-[Roboto] text-sm hover:bg-black hover:text-white duration-200 "><a href="#Home">Home</a></li>
+                    <li class="m-4 md:text-base font-medium font-[Roboto] text-sm  p-[5px] rounded-md hover:bg-black hover:text-white duration-200 "><a href="#About">About</a></li>
+                    <li class="m-4 md:text-base font-medium font-[Roboto] text-sm  p-[5px] rounded-md hover:bg-black hover:text-white duration-200 "><a href="#Products">Products</a></li>
+                    <li class="m-4 md:text-base font-medium font-[Roboto] text-sm  p-[5px] rounded-md hover:bg-black hover:text-white duration-200 "><a href="#Review">Review</a></li>
+                    <li class="m-4 md:text-base font-medium font-[Roboto] text-sm  p-[5px] rounded-md hover:bg-black hover:text-white duration-200 "><a href="#Contact">Contact</a></li>
                 </ul>
             </div>
             <div class=" md:flex justify-center gap-5 md:items-center m-4">
@@ -44,29 +43,30 @@
     </div>
     
 
-</section>
+    </section>
     
-    <section  class="py-5  " id="Home" >
-        <div class="2xl:container mx-auto content bg-[#F19ED2]">
+    <section  class="py-2  " id="Home" >
+        <div class="2xl:container mx-auto content  bg-pink-700 text-white">
             <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 h-screen ">
                  <div class=" text-center flex flex-col justify-center items-center">
                     <h1 class="text-4xl font-bold font-[roboto] py-3">Puma Shoes</h1>
                     <p class="font-[roboto]text-base font-medium  ">Natural & Beauty Shoes</p>
-                    <p class=" font-[roboto]text-base font-semibold py-4  ">PUMA is one of the world’s leading sports brands, designing, developing, selling, and marketing footwear, apparel, and accessories. For over 70 years, PUMA has been at the forefront of innovation in the sportswear industry, driven by a commitment to pushing sports and culture forward through groundbreaking design and performance.</p>
-                    <button class="bg-[#9e8fb2] px-5 py-2 rounded-lg font-[roboto]text-base font-semibold  ">Shop Now</button>
+                    <p class=" font-[roboto]text-base font-semibold py-4 text-justify  ">PUMA is one of the world’s leading sports brands, designing, developing, selling, and marketing footwear, apparel, and accessories. For over 70 years, PUMA has been at the forefront of innovation in the sportswear industry, driven by a commitment to pushing sports and culture forward through groundbreaking design and performance.</p>
+                    
+                    <button class="bg-gray-600 px-5 py-2 rounded-lg font-[roboto]text-xl font-semibold  ">Shop Now</button>
                 </div>
-                    <div class=" flex justify-center items-center">
+                    <div class=" flex justify-center items-center py-4">
                         <img src="https://images.journeys.ca/images/products/1_644758_ZM_ALT1C.JPG" alt="puma" class="w-[500px] h-[400px]">
                     </div>
             </div>
         </div>
     </section>
 
-    <section  class="py-5" id="About">
+    <section  class="py-2" id="About">
         <div class="2xl:container mx-auto ">
             <div class="w-[90%] mx-auto grid grid-cols-1 py-5">
-                <div class="text-4xl font-medium font-[Roboto] text-center bg-pink-400 w-full py-3">
-                    <h1 class="text-4xl font-bold font-[roboto] py-3">About Us</h1>
+                <div class="text-4xl font-medium font-[Roboto] text-center bg-pink-700 w-full py-3">
+                    <h1 class="text-4xl font-bold font-[roboto] py-3 text-white">About Us</h1>
                 </div>
             </div>
             <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2">
@@ -90,12 +90,12 @@
     <section class="py-5" id="Products">
         <div class="2xl:container mx-auto">
             <div class="w-[90%]  mx-auto grid grid-cols-1 py-5">
-                <div class="text-4xl font-medium font-[Roboto] text-center bg-pink-400 w-full py-3">
-                    <h1 class="text-4xl font-bold font-[roboto] py-3">Latest Products</h1>
+                <div class="text-4xl font-medium font-[Roboto] text-center bg-pink-700 w-full py-3">
+                    <h1 class="text-4xl font-bold font-[roboto] py-3 text-white">Latest Products</h1>
                 </div>
             </div>
             
-            <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+            <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  ">
                 <div class=" flex flex-col items-center bg-[white] shadow-2xl py-5 w-[250px] m-3 relative  ">
                     <img src="https://i5.walmartimages.com/asr/377e5d51-f253-48fc-9b37-a0c00cf3679d.ddc7569a6f2845503894ebf58a5b18a0.jpeg" alt="shoes1" class="w-[300px] h-[150px]"  >
 
@@ -434,8 +434,6 @@
             </div>
         </div>
     </section>
-
-
 
     <section  class="py-5">
         <div class="2xl:container mx-auto">
